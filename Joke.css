@@ -1,0 +1,42 @@
+body{
+    background-color:crimson;
+}
+.joke{
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex; 
+    font-size: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:black;
+
+}
+nav{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    background-color:rgb(241, 210, 30);
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:white;
+    color:cornflowerblue;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color .5s;
+}
+button:hover{
+    background-color:black;
+}
+button:active{
+    background-color: cornsilk;
+}
